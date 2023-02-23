@@ -31,6 +31,9 @@ jobs:
       with:
           name: artifacts
           path: target/*.jar
+    - uses: actions/download-artifact@master
+      with:
+        name: artifacts          
               
   
     
